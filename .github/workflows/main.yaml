@@ -27,7 +27,7 @@ jobs:
       
       - name: Clean old files
         run: |
-          git rm --ignore-unmatch *.pdf *.md *.png
+          git rm --ignore-unmatch *.pdf *.md
           git commit -m 'chore: remove previous files' --allow-empty
           git push
       
